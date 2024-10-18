@@ -92,7 +92,7 @@ int main()
         {
             
             bonus--;
-            printf("%d", bonus);
+            //printf("%d", bonus);  //printf de test
             
             eat_fruit(&list, list2, tab);
             del = eat_bonus(&list, list2, tab, del);
